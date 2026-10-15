@@ -23,7 +23,7 @@ public final class BlockOverlay {
             default -> base;
         };
         float alpha = m.f("Shader opacity");
-        float r = (rgb >> 16 & 255) / 255f, g = (rgb >> 8 & 255) / 255f, b = (rgb & 255) / 255f;
+        float r = (rgb >> 16 & 255) / 255f, (rgb >> 8 & 255) / 255f, (rgb & 255) / 255f, alpha, false);
 
         VoxelShape shape = oc.blockState().getOutlineShape(ctx.world(), oc.blockPos(), ShapeContext.of(oc.entity()));
         if (shape.isEmpty()) return true;
