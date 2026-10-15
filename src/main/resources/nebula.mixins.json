@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.burmalda.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["GameRendererMixin", "InGameHudMixin", "MinecraftClientMixin", "HeldItemRendererMixin", "ItemRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

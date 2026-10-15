@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "1.0.0",
+  "name": "Nebula",
+  "description": "Minimal glass visuals for Minecraft: smooth menus, custom backgrounds, now-playing with lyrics, swing animations, cosmetics and more. Client-side only.",
+  "authors": ["nebula"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.burmalda.BurmaldaClient"] },
+  "mixins": ["nebula.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
